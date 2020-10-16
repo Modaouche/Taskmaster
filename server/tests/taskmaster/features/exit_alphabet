@@ -1,0 +1,5 @@
+ls:
+- command=/bin/ls -l
+- exitcodes=fewewffewewf
+- autorestart=unexpected
+

@@ -1,0 +1,3 @@
+ls:
+- command: /bin/ls -l
+- autostart: true

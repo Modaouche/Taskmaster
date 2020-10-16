@@ -1,0 +1,14 @@
+hugels:
+- command: /bin/ls -lR /
+- numprocs: 1
+- autostart: false
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 0
+- stopsignal: TERM
+- stopwaitsecs: 10
+- stdout_logfile: /tmp/fat_out
+- stderr_logfile: /tmp/fat_err
+- directory: /tmp
+

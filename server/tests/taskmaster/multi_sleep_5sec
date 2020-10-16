@@ -1,0 +1,9 @@
+msleep5:
+- command: /usr/bin/sleep 5
+- numprocs: 2
+- autostart: true
+- startsecs: 2
+- startretries: 3
+- autorestart: false
+- exitcodes: 8
+

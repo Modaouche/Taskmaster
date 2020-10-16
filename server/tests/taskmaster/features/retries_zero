@@ -1,0 +1,4 @@
+ls:
+- command: /bin/ls
+- startsecs: 3
+- startretries: 0

@@ -1,0 +1,12 @@
+stream1:
+- command: /usr/bin/pwd
+- numprocs: 1
+- autostart: true
+- startsecs: 0
+- startretries: 0
+- stdout_logfile: AUTO
+- stderr_logfile: AUTO
+- autorestart: false
+- exitcodes: 0
+
+

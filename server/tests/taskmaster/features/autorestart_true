@@ -1,0 +1,4 @@
+ls:
+- command: /bin/ls -l
+- autorestart: true
+- startsecs: 0

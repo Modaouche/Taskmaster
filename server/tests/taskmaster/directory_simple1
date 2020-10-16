@@ -1,0 +1,13 @@
+taskmaster:
+- umask: 0
+
+directory_simple1:
+- command: /usr/bin/ls
+- numprocs: 1
+- autostart: true
+- startsecs: 0
+- startretries: 0
+- autorestart: false
+- exitcodes: 0
+- stdout_logfile: ok
+

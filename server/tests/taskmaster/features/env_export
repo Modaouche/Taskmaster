@@ -1,0 +1,5 @@
+env:
+- command: /usr/bin/env
+- stdout_logfile: /tmp/out_env
+- stderr_logfile: /tmp/err_env
+- env: HELLO=bonjour, WORLD=monde

@@ -1,0 +1,9 @@
+msimple2:
+- command: /usr/bin/ls
+- numprocs: 10
+- autostart: true
+- startsecs: 1
+- startretries: 0
+- autorestart: false
+- exitcodes: 0
+

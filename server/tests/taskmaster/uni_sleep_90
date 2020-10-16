@@ -1,0 +1,9 @@
+msimple4:
+- command: /usr/bin/sleep 90
+- numprocs: 1
+- autostart: true
+- startsecs: 0
+- startretries: 3
+- autorestart: false
+- exitcodes: 8
+

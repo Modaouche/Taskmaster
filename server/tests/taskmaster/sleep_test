@@ -1,0 +1,4 @@
+slp:
+- command: /usr/bin/sleep 30
+- autorestart: true
+- startsecs: 0

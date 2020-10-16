@@ -1,0 +1,4 @@
+ls:
+- command: /usr/bin/sleep 1
+- stdout_logfile: /tmp/out_dir_norights
+- directory: no_rights

@@ -1,0 +1,16 @@
+special:
+- command: /bin/ls -la
+- numprocs: 200
+- autostart: true
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 0
+- stopsignal: TERM
+- stopwaitsecs: 5
+- stdout_logfile: /tmp/lot1
+- stderr_logfile: /tmp/lot2
+- environnement: HELLO="bonjour", WORLD="salut"
+- directory: /tmp
+- umask: 000
+

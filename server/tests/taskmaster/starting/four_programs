@@ -1,0 +1,55 @@
+ls:
+- command: /bin/ls -la
+- numprocs: 1
+- autostart: true
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 1
+- stopsignal: TERM
+- stopwaitsecs: 5
+- stdout_logfile: /tmp/out4_1
+- stderr_logfile: /tmp/err4_1
+- directory: /tmp
+
+pwd:
+- command: /bin/pwd
+- numprocs: 1
+- autostart: false
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 1
+- stopsignal: TERM
+- stopwaitsecs: 5
+- stdout_logfile: /tmp/out4_2
+- stderr_logfile: /tmp/err4_2
+- directory: /tmp
+
+echo:
+- command: /bin/echo "hello world"
+- numprocs: 1
+- autostart: true
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 1
+- stopsignal: TERM
+- stopwaitsecs: 5
+- stdout_logfile: /tmp/out4_3
+- stderr_logfile: /tmp/err4_3
+- directory: /tmp
+
+date:
+- command: /bin/date
+- numprocs: 1
+- autostart: false
+- autorestart: false
+- exitcodes: 0
+- startsecs: 0
+- startretries: 1
+- stopsignal: TERM
+- stopwaitsecs: 5
+- stdout_logfile: /tmp/out4_4
+- stderr_logfile: /tmp/err4_4
+- directory: /tmp

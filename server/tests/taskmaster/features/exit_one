@@ -1,0 +1,5 @@
+ls:
+- command: /bin/ls -l
+- exitcodes: 1
+- startsecs: 0
+- autorestart: unexpected

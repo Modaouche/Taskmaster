@@ -1,0 +1,12 @@
+bash:
+- command: /bin/bash
+- numprocs: 1
+- autostart: false
+- autorestart: false
+- startretries: 0
+- startsecs: 0
+- exitcodes: 0
+- stopsignal: TERM
+- stopwaitsecs: 2
+- stdout_logfile: /tmp/my_stdout_special
+- stderr_logfile: /tmp/my_stderr
